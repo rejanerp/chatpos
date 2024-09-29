@@ -1,0 +1,40 @@
+[debug] [2024-09-18T23:13:58.475Z] ----------------------------------------------------------------------
+[debug] [2024-09-18T23:13:58.477Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\henri\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:secrets:set COMETCHAT_APP_ID
+[debug] [2024-09-18T23:13:58.477Z] CLI Version:   13.17.0
+[debug] [2024-09-18T23:13:58.477Z] Platform:      win32
+[debug] [2024-09-18T23:13:58.477Z] Node Version:  v20.12.2
+[debug] [2024-09-18T23:13:58.477Z] Time:          Wed Sep 18 2024 20:13:58 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2024-09-18T23:13:58.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-18T23:13:58.534Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-18T23:13:58.534Z] > authorizing via signed-in user (xdhenriquecosta@gmail.com)
+[debug] [2024-09-18T23:13:58.536Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com [none]
+[debug] [2024-09-18T23:13:58.536Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com x-goog-quota-user=projects/chatpos-aff1a
+[debug] [2024-09-18T23:13:59.679Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com 200
+[debug] [2024-09-18T23:13:59.679Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com [omitted]
+[debug] [2024-09-18T23:13:59.680Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com:enable [none]
+[debug] [2024-09-18T23:13:59.680Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com:enable x-goog-quota-user=projects/chatpos-aff1a
+[debug] [2024-09-18T23:14:00.943Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com:enable 200
+[debug] [2024-09-18T23:14:00.943Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com:enable [omitted]
+[debug] [2024-09-18T23:14:10.959Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com [none]
+[debug] [2024-09-18T23:14:10.959Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com x-goog-quota-user=projects/chatpos-aff1a
+[debug] [2024-09-18T23:14:12.024Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com 200
+[debug] [2024-09-18T23:14:12.024Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/chatpos-aff1a/services/secretmanager.googleapis.com [omitted]
+[debug] [2024-09-18T23:14:12.026Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-18T23:14:12.027Z] > authorizing via signed-in user (xdhenriquecosta@gmail.com)
+[debug] [2024-09-18T23:14:12.027Z] [iam] checking project chatpos-aff1a for permissions ["firebase.projects.get","secretmanager.secrets.create","secretmanager.secrets.get","secretmanager.secrets.update","secretmanager.versions.add"]
+[debug] [2024-09-18T23:14:12.027Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatpos-aff1a:testIamPermissions [none]
+[debug] [2024-09-18T23:14:12.027Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatpos-aff1a:testIamPermissions x-goog-quota-user=projects/chatpos-aff1a
+[debug] [2024-09-18T23:14:12.027Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatpos-aff1a:testIamPermissions {"permissions":["firebase.projects.get","secretmanager.secrets.create","secretmanager.secrets.get","secretmanager.secrets.update","secretmanager.versions.add"]}
+[debug] [2024-09-18T23:14:12.920Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatpos-aff1a:testIamPermissions 200
+[debug] [2024-09-18T23:14:12.920Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatpos-aff1a:testIamPermissions {"permissions":["firebase.projects.get","secretmanager.secrets.create","secretmanager.secrets.get","secretmanager.secrets.update","secretmanager.versions.add"]}
+[debug] [2024-09-18T23:14:12.921Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatpos-aff1a [none]
+[debug] [2024-09-18T23:14:13.399Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatpos-aff1a 200
+[debug] [2024-09-18T23:14:13.399Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatpos-aff1a {"projectId":"chatpos-aff1a","projectNumber":"840413567529","displayName":"chatpos","name":"projects/chatpos-aff1a","resources":{"hostingSite":"chatpos-aff1a"},"state":"ACTIVE","etag":"1_5d16aa12-59a5-4bcb-949f-1b7d8714c9ae"}
+[debug] [2024-09-18T23:14:13.400Z] >>> [apiv2][query] GET https://secretmanager.googleapis.com/v1/projects/chatpos-aff1a/secrets/COMETCHAT_APP_ID [none]
+[debug] [2024-09-18T23:14:13.994Z] <<< [apiv2][status] GET https://secretmanager.googleapis.com/v1/projects/chatpos-aff1a/secrets/COMETCHAT_APP_ID 404
+[debug] [2024-09-18T23:14:13.994Z] <<< [apiv2][body] GET https://secretmanager.googleapis.com/v1/projects/chatpos-aff1a/secrets/COMETCHAT_APP_ID {"error":{"code":404,"message":"Secret [projects/840413567529/secrets/COMETCHAT_APP_ID] not found.","status":"NOT_FOUND"}}
+[debug] [2024-09-18T23:14:13.994Z] >>> [apiv2][query] POST https://secretmanager.googleapis.com/v1/projects/chatpos-aff1a/secrets secretId=COMETCHAT_APP_ID
+[debug] [2024-09-18T23:14:13.995Z] >>> [apiv2][body] POST https://secretmanager.googleapis.com/v1/projects/chatpos-aff1a/secrets {"name":"COMETCHAT_APP_ID","replication":{"automatic":{}},"labels":{"firebase-managed":"functions"}}
+[debug] [2024-09-18T23:14:15.893Z] <<< [apiv2][status] POST https://secretmanager.googleapis.com/v1/projects/chatpos-aff1a/secrets 200
+[debug] [2024-09-18T23:14:15.893Z] <<< [apiv2][body] POST https://secretmanager.googleapis.com/v1/projects/chatpos-aff1a/secrets {"name":"projects/840413567529/secrets/COMETCHAT_APP_ID","replication":{"automatic":{}},"createTime":"2024-09-18T23:14:16.871350Z","labels":{"firebase-managed":"functions"},"etag":"\"16226cf70c8db6\""}
